@@ -1,0 +1,26 @@
+@import url('./fonts.css');
+@import url('./palette.css');
+
+* {
+  margin: 0;
+}
+
+html, body, #app, .page {
+  flex-direction: column;
+  display: flex;
+
+  min-height: 100vh;
+}
+
+body, button {
+  font-family: 'Open Sans';
+  color: var(--dracula-orchid);
+}
+
+button {
+  transition: all .125s;
+}
+
+button:active {
+  opacity: .5;
+}
